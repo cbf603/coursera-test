@@ -1,0 +1,45 @@
+h2 {
+	padding: 25px;
+}
+@media (max-width: 767px) {
+  .col-xs-12 {
+  	width: 100%;
+  }
+}
+#header-nav {
+	background-color: #ffffb3;
+	border-radius: 0;
+	padding: 20px;
+	margin-bottom: 0px;
+}
+.navbar-brand h1 { 
+  color: #557c3e;
+  font-size: 1.75em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+section {
+	height: 1000px;
+	font-family: Helvetica;
+	font-size: 15px;
+	background-color: cyan;
+	padding: 20px;
+    margin: 20px;
+}
+#nav-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#nav-list div {
+    height: 32px;
+    border: solid black 1px;
+    color: black;
+    font-size: 22px;
+    background-color: #ffe6e6;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
+
