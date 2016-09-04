@@ -3,7 +3,7 @@ h2 {
 }
 @media (max-width: 767px) {
   .col-xs-12 {
-  	width: 100%;
+  width: 100%;
   }
 }
 #header-nav {
@@ -26,18 +26,38 @@ section {
 	font-size: 15px;
 	background-color: cyan;
 	padding: 20px;
-    margin: 20px;
+  margin: 20px;
 }
 #nav-list {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-#nav-list div {
-    height: 32px;
-    border: solid black 1px;
-    color: black;
-    font-size: 22px;
-    background-color: #ffe6e6;
+#div_1 {
+  height: 32px;
+  border-top: solid black 1px;
+  border-right: solid black 1px;
+  border-bottom: 0px;
+  border-left: solid black 1px;
+  color: black;
+  font-size: 22px;
+  background-color: #ffe6e6;
+}
+#div_2 {
+  height: 32px;
+  border-top: solid black 1px;
+  border-right: solid black 1px;
+  border-bottom: 0px;
+  border-left: solid black 1px;
+  color: black;
+  font-size: 22px;
+  background-color: #ffe6e6;
+}
+#div_3 {
+  height: 32px;
+  border: solid black 1px;
+  color: black;
+  font-size: 22px;
+  background-color: #ffe6e6;
 }
 .navbar-header button.navbar-toggle {
     clear: both;
