@@ -1,5 +1,6 @@
 h2 {
-	padding: 25px;
+  margin-top: : 10px;
+  margin-bottom: 0px;
 }
 @media (max-width: 767px) {
   .col-xs-12 {
@@ -9,7 +10,7 @@ h2 {
 #header-nav {
 	background-color: #ffffb3;
 	border-radius: 0;
-	padding: 20px;
+	padding: 10px;
 	margin-bottom: 0px;
 }
 .navbar-brand h1 { 
@@ -25,8 +26,14 @@ section {
 	font-family: Helvetica;
 	font-size: 15px;
 	background-color: cyan;
-	padding: 20px;
-  margin: 20px;
+	padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 #nav-list {
 	margin-top: 0px;
@@ -61,5 +68,8 @@ section {
 }
 .navbar-header button.navbar-toggle {
     clear: both;
+}
+p {
+  padding-top: 20px;
 }
 
